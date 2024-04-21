@@ -1,0 +1,402 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(19, 18, 36);
+}
+
+.px-btn {
+
+    text-decoration: none;
+    background-color: #0788ff;
+    border-radius: 40px;
+    border: 2px solid;
+    padding: 13px 30px;
+    border: none;
+    transition: ease all 0.35s;
+}
+
+.px-btn:hover {
+    border: 1px solid;
+    background-color: black;
+}
+
+
+li {
+    padding: 20px;
+}
+
+.home-section {
+
+    padding-top: 100px;
+}
+
+.letter {
+    padding: 5px 12px;
+    letter-spacing: 4px;
+    background-color: #042F57;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.desig {
+
+    font-size: 70px;
+    color: #0788ff;
+    margin: 0 0 30px;
+}
+
+.text {
+    font-size: 20px;
+    margin: 0 0 16px;
+}
+
+.px-btn1 {
+    padding: 13px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: #0788ff;
+    border: 2px solid;
+
+}
+
+.px-btn1 a {
+    text-decoration: none;
+    box-shadow: none;
+    text-transform: uppercase;
+
+}
+
+.px-btn1:hover {
+    border: 1px solid white;
+    background-color: black;
+}
+
+.btn-bar {
+    padding: 15px 0 0;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.dribbble {
+    background-color: #F26798;
+}
+
+.linkedin {
+
+    background-color: #1275B1;
+}
+
+.social-icon a {
+    text-decoration: none;
+    width: 46px;
+    height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: blue;
+    border: 2px solid;
+    margin-right: 8px;
+    position: relative;
+    top: 0;
+}
+
+/* 
+.slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    display: inline-flex;
+}
+
+.wrapper .static-txt{
+    color: #fff;
+    font-size: 70px;
+}
+
+.wrapper .dynamic-txts{
+  
+    margin-left: 15px;
+    line-height: 80px;
+    overflow: hidden;
+     
+}
+
+.dynamic-txts li{
+    color: #fff;
+    list-style: none;
+    font-size: 70px;
+    position: relative;
+    top: 0%;
+    animation: slide 6s steps(2) infinite;
+}
+
+@keyframes slide{
+
+    100%{
+        top: -360px;        
+    }
+}
+
+.dynamic-txts li span{
+
+    position: relative;
+}
+.dynamic-txts span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(19, 18, 36);
+    border-left: 2px solid white;
+    animation: typing 1.5s steps(9) infinite;
+}
+
+@keyframes typing {
+
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+        
+    }
+} */
+
+
+.gray-bg {
+
+    background-color: rgb(6, 5, 33);
+    padding: 25px 0;
+}
+
+
+.section-2 {
+
+    position: relative;
+    padding: 100px 0;
+}
+
+.section-2 .container {
+
+    position: relative;
+    z-index: 1;
+    background-color: #142c5700;
+    overflow: hidden;
+}
+
+
+
+.effect-1 {
+
+    position: absolute;
+    top: 150px;
+    right: 10%;
+    z-index: -1;
+}
+
+@media (max-width: 1040px) {
+
+    .effect-1,
+    .effect-2 {
+        display: none;
+
+    }
+}
+
+.effect-2 {
+
+    position: absolute;
+    bottom: 50px;
+    left: 15%;
+    z-index: -1;
+}
+
+
+.about-text .section-heading {
+
+    margin-bottom: 25px;
+}
+
+.section-heading h6 {
+
+    margin: 0 0 10px;
+    letter-spacing: 2px;
+}
+
+.letter-1 span {
+    padding: 5px 12px;
+    background-color: #0a1d4c;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.main-box {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.box {
+
+    background-color: #12192400;
+    border: 1px solid rgb(95, 74, 74);
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.project {
+    overflow: hidden;
+}
+
+.section-3 {
+
+    padding: 100px 0;
+    position: relative;
+    background-color: #303e5f;
+}
+
+.work {
+
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.work h6 {
+    padding: 5px 12px;
+    background-color: #486cc9;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.arrar {
+
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(60, 112, 255);
+}
+
+.spacing {
+
+    letter-spacing: 2px;
+    padding: 5px 12px;
+    background-color: #042F57;
+}
+
+.box {
+    background-size: cover;
+
+}
+
+.icon i {
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: 2px solid none;
+    background-color: #042F57;
+    border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+
+    background-color: #042F57;
+    padding: 25px;
+}
+
+.box-sec {
+
+    background-color: rgb(76, 76, 200);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 24px 0 0;
+
+
+}
+
+.over {
+    margin-top: -100px;
+}
+
+.over h4 {
+
+    letter-spacing: 2px;
+    display: inline-block;
+    background-color: #0788ff;
+    padding: 5px 12px;
+    border-radius: 4px;
+
+}
+
+.avatar {
+
+    margin: 0 258px;
+    
+}
+
+.avatar img {
+
+    border-radius: 50%;
+    width: 114px;
+    height: 114px;
+
+}
+
+.effect-4{
+
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    right: -20%;
+}
+
+.color-1{
+
+    background-color: #042F57;
+
+}
+
+.color-2{
+
+    background-color: #0a1d4c;
+}
+
+.btn-3{
+
+    width: 90%;
+    background-color: #0788ff;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.btn-3:hover{
+
+    background-color: black;
+    border: 2px solid white;
+}
+
+.write{
+
+    margin: 150px 30px 0 ;
+}
+
+
